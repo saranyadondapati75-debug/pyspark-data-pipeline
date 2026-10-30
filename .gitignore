@@ -1,0 +1,15 @@
+@"
+.venv/
+__pycache__/
+.pytest_cache/
+logs/
+output/
+
+data/clean_orders_preprocessed.csv
+data/malformed_orders_preprocessed.csv
+data/clean_test.csv
+data/quarantine_test.csv
+data/malformed_test.csv
+
+winutils.exe
+"@ | Set-Content .gitignore
